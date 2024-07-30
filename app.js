@@ -1,5 +1,6 @@
 // Get the GitHub username input form
 const gitHubForm = document.getElementById('gitHubForm');
+const clearTextBtn = document.getElementById('clear');
 
 // Listen for submissions on GitHub username input form
 gitHubForm.addEventListener('submit', (e) => {
