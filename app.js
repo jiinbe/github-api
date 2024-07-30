@@ -89,3 +89,9 @@ function requestUserRepos(username) {
     xhr.send();
 
 }
+
+const clearTextFn = () => {
+  textField.value = '';
+  textField.focus()
+}
+clearTextBtn.addEventListener('click', clearTextFn)
