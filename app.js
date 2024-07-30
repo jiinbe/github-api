@@ -91,7 +91,7 @@ function requestUserRepos(username) {
 }
 
 const clearTextFn = () => {
-  gitHubForm.value = '';
-  gitHubForm.focus()
+  usernameInput.value = '';
+  usernameInput.focus()
 }
 clearTextBtn.addEventListener('click', clearTextFn)
